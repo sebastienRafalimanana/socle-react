@@ -17,11 +17,7 @@ const UserList: FC = () => {
     return ( 
         <div>
            <h1> list of users</h1>
-           {userList.map((user,index)=>{
-            return(
-                <h1 key={index}>{user}</h1>
-            )
-           })}
+
         </div>
      );
 }
